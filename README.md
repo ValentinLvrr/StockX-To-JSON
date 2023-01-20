@@ -7,7 +7,7 @@ git clone https://github.com/ValentinLvrr/StockX-To-JSON
 cd Geev-Bot
 ```
 
-### 2: Add links or name to `objects.txt`
+### 2: Add links or name to [`objects.txt`](https://github.com/ValentinLvrr/StockX-To-JSON/blob/main/objects.txt)
 ```
 https://stockx.com/fr-fr/sony-ps5-playstation-5-digital-edition-console-white
 dunk low homer
@@ -15,7 +15,7 @@ https://stockx.com/fr-fr/swatch-x-omega-bioceramic-moonswatch-mission-to-jupiter
 jordan chicago
 ```
 
-### 3: Customize or not the delay and the files
+### 3: Customize or not the delay and the files in [`config.py`](https://github.com/ValentinLvrr/StockX-To-JSON/blob/main/config.py)
 ```py
 class Delay:
     isEnabled = True
