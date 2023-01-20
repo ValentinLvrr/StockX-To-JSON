@@ -40,7 +40,7 @@ python3 stockx.py
 ✅ | jordan chicago
 📝 | 4 written in output.json!
 ```
-### `output.json` :
+### [`output.json`](https://github.com/ValentinLvrr/StockX-To-JSON/blob/main/output.json) :
 ```json
 {
       "product": {
