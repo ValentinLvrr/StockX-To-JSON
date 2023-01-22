@@ -67,7 +67,7 @@ def search(query):
     if res.ok:
 
         data = res.json()
-        product = data['Products'][0]
+        product = data['Products'][0] # First Result
         market = product['market']
         
         stockx_item = {
@@ -114,5 +114,5 @@ if __name__ == "__main__":
     """
     json_object = json.dumps(saved, indent=2)
     open(Files.output, "w").write(json_object)
-    print(f"📝 | {len(links)} written in {Files.output}!")
+    print(f"📝 | {len(saved['sneakers'])} written in {Files.output}!")
     input()
