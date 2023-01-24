@@ -13,6 +13,7 @@ match name:
 saved = {"sneakers" : [],}
 
 def add(item):
+    
     """
     Add Item to a list
     """
@@ -40,11 +41,10 @@ def add(item):
     })
 
 def search(query):
-
     """
-    Getting Product Informations
+    Getting Product Informations from
+    the StockX Api
     """
-
 
     url = f'https://stockx.com/api/browse?_search={query}'
 
@@ -67,7 +67,7 @@ def search(query):
     if res.ok:
 
         data = res.json()
-        product = data['Products'][0] # First Result
+        product = data['Products'][0]
         market = product['market']
         
         stockx_item = {
@@ -96,7 +96,7 @@ def search(query):
         else:
             print("✅ | " + query)
 
-        if Delay.isEnabled == True:
+        if Delay.isEnabled:
             sleep(Delay.time)
 
     else:
@@ -105,14 +105,12 @@ def search(query):
 if __name__ == "__main__":
 
     links = open(Files.links,'r').readlines()
-    
     for url in links:
         search(url.strip())
 
-    """
-    Writting in the output file
-    """
+    # Writting
     json_object = json.dumps(saved, indent=2)
     open(Files.output, "w").write(json_object)
+
     print(f"📝 | {len(saved['sneakers'])} written in {Files.output}!")
     input()
