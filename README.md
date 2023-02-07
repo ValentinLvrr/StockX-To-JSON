@@ -17,13 +17,9 @@ jordan chicago
 
 ### 3: Customize or not the delay and the files in [`config.py`](https://github.com/ValentinLvrr/StockX-To-JSON/blob/main/config.py)
 ```py
-class Delay:
-    isEnabled = True
-    time = 0.1
-
-class Files:
-    links = 'objects.txt'
-    output = 'output.json'
+LINKS_FILE = 'objects.txt'
+OUTPUT_FILE = 'output.json'
+DELAY = 0.5
 ```
 # Launching
 ```
@@ -34,11 +30,11 @@ python3 stockx.py
 
 ### Terminal :
 ```
-✅ | sony ps5 playstation 5 digital edition console white
-✅ | dunk low homer
-✅ | swatch x omega bioceramic moonswatch mission to jupiter so33c100 brown
-✅ | jordan chicago
-📝 | 4 written in output.json!
+✅ sony ps5 playstation 5 digital edition console white
+✅ dunk low homer
+✅ swatch x omega bioceramic moonswatch mission to jupiter so33c100 brown
+✅ jordan chicago
+📝 4 written in output.json!
 ```
 ### [`output.json`](https://github.com/ValentinLvrr/StockX-To-JSON/blob/main/output.json) :
 ```json
