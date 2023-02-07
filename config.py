@@ -1,7 +1,3 @@
-class Delay:
-    isEnabled = True
-    time = 0.1
-
-class Files:
-    links = 'objects.txt'
-    output = 'output.json'
+LINKS_FILE = 'objects.txt'
+OUTPUT_FILE = 'output.json'
+DELAY = 0.5

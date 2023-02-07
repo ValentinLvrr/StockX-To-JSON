@@ -1,0 +1,92 @@
+{
+  "sneakers": [
+    {
+      "product": {
+        "name": "PlayStation 5 PS5 Digital Edition Console (US Plug)",
+        "brand": "Sony",
+        "gender": "unisex",
+        "category": "Electronics Playstation",
+        "colorway": "White",
+        "imageUrl": "https://images.stockx.com/images/Sony-Playstation-5-Digital-Edition-Console-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1605716716"
+      },
+      "bid_ask_data": {
+        "lowestAsk": 458,
+        "lowestAskSize": "",
+        "numberOfAsks": 247,
+        "highestBid": 420,
+        "highestBidSize": "",
+        "numberOfBids": 93
+      },
+      "sales_informations": {
+        "lastSale": 448,
+        "salesLast72Hours": 35
+      }
+    },
+    {
+      "product": {
+        "name": "Next Nature Homer Simpson (GS)",
+        "brand": "Nike",
+        "gender": "child",
+        "category": "Dunk Low",
+        "colorway": "Blue Chill/Yellow/Strike-White",
+        "imageUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Next-Nature-Home-Simpson-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657198087"
+      },
+      "bid_ask_data": {
+        "lowestAsk": 88,
+        "lowestAskSize": "3.5Y",
+        "numberOfAsks": 413,
+        "highestBid": 111,
+        "highestBidSize": "7Y",
+        "numberOfBids": 69
+      },
+      "sales_informations": {
+        "lastSale": 108,
+        "salesLast72Hours": 15
+      }
+    },
+    {
+      "product": {
+        "name": "SO33C100",
+        "brand": "Swatch",
+        "gender": "unisex",
+        "category": "Other Brands Swatch",
+        "colorway": "",
+        "imageUrl": "https://images.stockx.com/images/Swatch-x-Omega-Bioceramic-Moonswatch-Mission-to-Jupiter-SO33C100-Brown-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655406266"
+      },
+      "bid_ask_data": {
+        "lowestAsk": 337,
+        "lowestAskSize": "",
+        "numberOfAsks": 94,
+        "highestBid": 320,
+        "highestBidSize": "",
+        "numberOfBids": 59
+      },
+      "sales_informations": {
+        "lastSale": 338,
+        "salesLast72Hours": 24
+      }
+    },
+    {
+      "product": {
+        "name": "Chicago Lost and Found",
+        "brand": "Jordan",
+        "gender": "men",
+        "category": "Air Jordan One",
+        "colorway": "Varsity Red/Black-Sail-Muslin",
+        "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665691099"
+      },
+      "bid_ask_data": {
+        "lowestAsk": 295,
+        "lowestAskSize": "3.5",
+        "numberOfAsks": 2877,
+        "highestBid": 450,
+        "highestBidSize": "10.5",
+        "numberOfBids": 2059
+      },
+      "sales_informations": {
+        "lastSale": 389,
+        "salesLast72Hours": 199
+      }
+    }
+  ]
+}

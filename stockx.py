@@ -1,14 +1,7 @@
-from config import Files, Delay
-from os import name, system
+from config import DELAY, LINKS_FILE ,OUTPUT_FILE
 from time import sleep
 import requests
 import json
-
-match name:
-    case 'nt':
-        system('cls')
-    case _:
-        system('clear')
 
 saved = {"sneakers" : [],}
 
@@ -92,25 +85,24 @@ def search(query):
         add(item=stockx_item)
         
         if 'https://stockx.com/' in query:
-            print("✅ | " + query.split('/')[-1].replace('-',' '))
+            print("✅ " + query.split('/')[-1].replace('-',' '))
         else:
-            print("✅ | " + query)
+            print("✅ " + query)
 
-        if Delay.isEnabled:
-            sleep(Delay.time)
+        sleep(DELAY)
 
     else:
-        print(f"[✴️] request error: ({res.status_code})")
+        print(f"✴️ request error: ({res.status_code})")
 
 if __name__ == "__main__":
 
-    links = open(Files.links,'r').readlines()
+    links = open(LINKS_FILE,'r').readlines()
     for url in links:
         search(url.strip())
 
     # Writting
     json_object = json.dumps(saved, indent=2)
-    open(Files.output, "w").write(json_object)
+    open(OUTPUT_FILE, "w").write(json_object)
 
-    print(f"📝 | {len(saved['sneakers'])} written in {Files.output}!")
+    print(f"📝 {len(saved['sneakers'])} written in {OUTPUT_FILE}!")
     input()
